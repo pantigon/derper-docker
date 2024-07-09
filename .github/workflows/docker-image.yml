@@ -34,6 +34,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/fredliang44/derper:latest
-            fredliang/derper:latest
-            fredliang/derper:${{ github.sha }}
+            ghcr.io/pantigon/derper:latest
+            pantigon/derper:latest
+            pantigon/derper:${{ github.sha }}
